@@ -22,11 +22,11 @@
   @font-face {
     font-family: NotoSerifGeorgian-Condensed;
     src: url(../fonts/NotoSerifGeorgian-Condensed.ttf);
-  }
-  @font-face {
+}
+@font-face {
     font-family: NotoSerifGeorgian-SemiCondensedBold;
     src: url(../fonts/NotoSerifGeorgian-SemiCondensedBold.ttf);
-  }
+}
 .header{
     height: 120px;
     width: 100%;
@@ -36,7 +36,12 @@
     align-items: center;
 }
 .main_img{
-    width: 80px;
+    width: 50px;
+}
+.two{
+    width: 100px;
+    margin-left: 20px;
+    /* margin-top: 10px; */
 }
 .nav_ul{
     display: flex;
@@ -92,11 +97,6 @@
     top: 40%;
     left: 15%;
     /* transform: translate(-50%); */
-}
-.two{
-    width: 180px;
-    margin-left: 20px;
-    /* margin-top: 10px; */
 }
 .info_div h2{
     color: #000000;
