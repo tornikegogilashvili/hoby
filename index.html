@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="/js/navigation.js" defer></script>
     <script src="/js/carousel.js" defer></script>
+    <script src="/js/burger.js"></script>
+    <script src="https://kit.fontawesome.com/e8c0f84797.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="/css/style.css">
     <title>hobby</title>
 </head>
@@ -18,7 +23,12 @@
                 <img class="main_img two" src="/images/Asset 3.png" alt="hoby">
             </a>
         </div>
-        <nav id="navigation" >
+        <div  onclick="openNav()" class="burger">
+            <div class="burger_line"></div>
+            <div class="burger_line"></div>
+            <div class="burger_line"></div>
+        </div>
+        <nav class="navigation" id="navigation"  >
 
         </nav>
     </header>

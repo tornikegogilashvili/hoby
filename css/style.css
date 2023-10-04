@@ -38,6 +38,25 @@
 .main_img{
     width: 50px;
 }
+.navigation{
+    /* display: block; */
+}
+.burger{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    display: none;
+}
+.burger_line{
+    background-color: #000000;
+    width: 40px;
+    height: 1px;
+    border-radius: 20px;
+    padding: 3px;
+}
 .two{
     width: 100px;
     margin-left: 20px;
@@ -137,4 +156,54 @@
 }
 .carousel_button.next{
     right: 0rem;
+}
+
+@media screen and (max-width:850px) {
+    .slide img{
+        position: unset;
+        /* top: -10%;
+        left: 25%; */
+        margin: 0 auto;
+        z-index: 10;
+    }
+    .info_div{
+        position: unset;
+        margin: 0 auto;
+    }
+
+}
+@media screen and (max-width:750px) {
+    .navigation{
+        display: none;
+    }
+    .burger{
+        display: block;
+        width: 40px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    .navigation{
+        position: absolute;
+        text-align: center;
+        top: 100px;
+        z-index: 5;
+        /* background-color: #115142; */
+        background-color: #000000;
+        opacity: 0.8;
+        width: 100%;
+    }
+    .nav_ul{
+        flex-direction: column;
+    }
+    .nav_ul_li{
+        padding: 15px;
+    }
+    .nav_a{
+        font-family: HelveticaNeueLTGEO-65Medium;
+        color: #115142;
+        font-size: 20px;
+    }
 }
