@@ -161,6 +161,18 @@
 .info_div{
     color: #000000;
 }
+#ourStory{
+    margin: 0 auto;
+    width: 60%;
+    padding: 15px;
+    font-family: HelveticaNeueLTGEO-35Thin;
+    font-size: 20px;
+    margin-bottom: 50px;
+    border: 0px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px #acaaaa;
+    line-height: 40px;
+}
 .carousel_button{
     position: absolute;
     z-index: 2;
@@ -246,6 +258,12 @@
 .footer_first{
     margin-bottom: 30px;
 }
+.footer_first h3{
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 22px;
+}
 .footer_second{
     
 }
@@ -253,8 +271,9 @@
     padding-top: 20px;
 }
 .footer_first p{
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
+    font-family: HelveticaNeueLTGEO-35Thin;
 }
 .carousel_div{
     width: 100vw;
