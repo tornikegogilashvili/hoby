@@ -236,7 +236,12 @@
 }
 .footer .insta{
     width: 20px;
-    height: 20px;   
+    height: 20px;  
+    margin: 0 10px; 
+}
+.footer .linkdin{
+    width: 20px;
+    height: 20px; 
 }
 .footer_first{
     margin-bottom: 30px;
