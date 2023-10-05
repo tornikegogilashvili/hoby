@@ -1,5 +1,5 @@
 let navbar = ["HOME", "PRODUCT", "ABOUT US",  "CONTACT"]
-let navlink = ["index.html", "index.html", "#aboutus","index.html","index.html"]
+let navlink = ["index.html", "index.html", "#aboutus","#footer"]
 let navtext = "<ul class="+"nav_ul"+">";
 let navLength = navbar.length;
 for (let i=0; i<navLength;i++){
