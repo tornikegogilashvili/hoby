@@ -211,10 +211,17 @@
     height: 500px;
 }
 .aboutus{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 
+}
+.partners_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 30px;
+}
+.partners_div div{
+    padding: 10px;
 }
 .aboutus h2{
     font-size: 30px;
@@ -312,6 +319,8 @@
 
 
 
+
+
 @media screen and (max-width:850px) {
     .slide img{
         position: unset;
@@ -386,6 +395,7 @@
         width: 300px;
         height: 300px;
     }
+    
 }
 @media screen and (max-width:400px){
     .info_div{
